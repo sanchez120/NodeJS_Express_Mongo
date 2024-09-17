@@ -4,8 +4,13 @@
   "description": "Laboratorio api rest con mongoDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
+  "Keywords": [
+    "node"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanchez120/NodeJS_Express_Mongo.git"
@@ -23,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/sanchez120/NodeJS_Express_Mongo/issues"
   },
-  "homepage": "https://github.com/sanchez120/NodeJS_Express_Mongo#readme"
+  "homepage": "https://github.com/sanchez120/NodeJS_Express_Mongo#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
